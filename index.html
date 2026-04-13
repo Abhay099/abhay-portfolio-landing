@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhay Yadav | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <div class="hero-layout">
+        <div>
+          <p class="kicker">Portfolio</p>
+          <h1>Hi, I'm Abhay Yadav</h1>
+          <p class="hero-text">
+            I build clean and useful web experiences. This page is designed to stay simple, quick, and easy to maintain.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+          </div>
+        </div>
+        <img class="profile-photo" src="assets/profile.png" alt="Portrait of Abhay Yadav">
+      </div>
+    </header>
+
+    <main>
+      <section class="section skills-card">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p class="muted">My core technologies and tools.</p>
+        </div>
+        <div class="skills-list">
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Git & GitHub</span>
+        </div>
+        <a
+          class="btn btn-ghost social-link"
+          href="https://www.linkedin.com/in/abhay-yadav-950705157"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn Profile
+        </a>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p class="muted">Your latest work appears here.</p>
+        </div>
+        <div id="projectList" class="project-grid"></div>
+        <p id="emptyState" class="empty-state hidden">No projects yet. Add your first one below.</p>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
